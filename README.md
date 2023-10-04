@@ -184,7 +184,7 @@ Text kann mit dem == Zeichen hervorgehoben werden.
 
 Beispiel:
 
-==Hervorgehobener Text==
+Das ist ==hervorgehobener Text==
 
 ## Hoch- und Tiefgestellte Zeichen
 
