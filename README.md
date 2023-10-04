@@ -137,7 +137,8 @@ Fügene ein Bild in Markdown ein, indem man einen Text in eckigen Klammern für 
 Beispiel:
 
 \![Alternativer Text](URL des Bildes)
-[Max Verstappen](https://search.brave.com/images?q=max%20verstappen)
+
+![Max Verstappen](https://search.brave.com/images?q=max%20verstappen)
 
 ## Blockzitate
 
@@ -146,20 +147,22 @@ Blockzitate können mit dem Größer-als-Zeichen (>) am Anfang einer Zeile erste
 Beispiel:
 
 \> Dies ist ein Blockzitat.
+> Dies ist ein Blockzitat
 
 ## Fußnoten
 
-Erstellen Sie Fußnoten mit [^1] und definieren Sie die Fußnoten am Ende des Dokuments.
+Man erstellt Fußnoten mit [^1] und definieren Sie die Fußnoten am Ende des Dokuments.
 
 Beispiel:
 
 Das ist ein Text mit einer Fußnote.[^1]
 
 \[^1]: Hier ist die Erklärung der Fußnote.
+[^2]: Hier ist die Fußnote.
 
 ## Task-Listen
 
-Sie können Task-Listen erstellen, um Aufgaben zu verfolgen.
+Mann kann Task-Listen erstellen, um Aufgaben zu verfolgen.
 
 Beispiel:
 
@@ -168,11 +171,12 @@ Beispiel:
 
 ## Durchgestrichene Absätze
 
-Verwenden Sie Tilden (~~) um Text durchzustreichen.
+Verwende Wellenlinien (~~) um Text durchzustreichen.
 
 Beispiel:
 
 \~~Durchgestrichener Text\~~
+~~Durchgestrichener Text~~
 
 ## Text Highlighting
 
@@ -194,3 +198,4 @@ URLs können deaktiviert werden, indem sie zwischen Winkelschließklammern (< un
 Beispiel:
 
 \<http://example.com\>
+<http://htl-leoben.at\>
