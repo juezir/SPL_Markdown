@@ -188,8 +188,8 @@ Das ist ==hervorgehobener Text==
 
 ## Hoch- und Tiefgestellte Zeichen
 
-- Hochgestellt: ^hoch^
-- Tiefgestellt: ~tief~
+- Hochgestellt: Das ist <sup>hochgestellter</sup> Text.
+- Tiefgestellt: Das ist <sub>tiefgestellter</sub> Text.
 
 ## Deaktivierte URL-Verknüpfungen
 
