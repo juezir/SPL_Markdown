@@ -125,11 +125,11 @@ Man erstellt Tabellen in Markdown, indem Sie Zeilen und Spalten mit Pipezeichen 
 
 ### Beispiel
 
-| Links     |   Zentriert   |       Rechts |
-| :-------- | :-----------: | -----------: |
-| Inhalt    |    Inhalt     |        Inhalt |
-| Inhalt    |    Inhalt     |        Inhalt |
-| Inhalt    |    Inhalt     |        Inhalt |
+| Links       |   Zentriert   |        Rechts |
+| :--------   | :-----------: | ------------: |
+| Inhalt      |    Inhalt     |        Inhalt |
+| Inhalt      |    Inhalt     |        Inhalt |
+| Inhalt      |    Inhalt     |        Inhalt |
 
 
 ## Bilder
