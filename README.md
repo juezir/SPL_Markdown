@@ -112,23 +112,25 @@ Man erstellt Tabellen in Markdown, indem Sie Zeilen und Spalten mit Pipezeichen 
 
 ### Aufbau (ohne Absätze)
 
-\| Spalte 1   | Spalte 2   | Spalte 3   |
+\| Links     |   Zentriert   |       Rechts |
 
-\|------------|------------|------------|
+\| :-------- | :-----------: | -----------: |
 
-\| Inhalt 1   | Inhalt 2   | Inhalt 3   |
+\| Inhalt    |    Inhalt     |        Inhalt |
 
-\| Zeile 2, 1 | Zeile 2, 2 | Zeile 2, 3 |
+\| Inhalt    |    Inhalt     |        Inhalt |
 
-\| Zeile 3, 1 | Zeile 3, 2 | Zeile 3, 3 |
+\| Inhalt    |    Inhalt     |        Inhalt |
+
 
 ### Beispiel
 
-| Spalte 1   | Spalte 2   | Spalte 3   |
-|------------|------------|------------|
-| Inhalt 1   | Inhalt 2   | Inhalt 3   |
-| Zeile 2, 1 | Zeile 2, 2 | Zeile 2, 3 |
-| Zeile 3, 1 | Zeile 3, 2 | Zeile 3, 3 |
+| Links     |   Zentriert   |       Rechts |
+| :-------- | :-----------: | -----------: |
+| Inhalt    |    Inhalt     |        Inhalt |
+| Inhalt    |    Inhalt     |        Inhalt |
+| Inhalt    |    Inhalt     |        Inhalt |
+
 
 ## Bilder
 
