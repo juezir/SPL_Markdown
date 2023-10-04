@@ -158,7 +158,7 @@ Beispiel:
 Das ist ein Text mit einer Fußnote.[^1]
 
 \[^1]: Hier ist die Erklärung der Fußnote.
-[^2]: Hier ist die Fußnote.
+[^1]: Hier ist die Fußnote.
 
 ## Task-Listen
 
