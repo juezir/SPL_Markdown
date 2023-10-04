@@ -37,9 +37,9 @@ Markdown bietet verschiedene Möglichkeiten, Wörter hervorzuheben oder zu beton
 
 ### Ungeordnete Aufzählungen
 
-Erstellen Sie ungeordnete Aufzählungen mit Sternchen (*), Pluszeichen (+) oder Minuszeichen (-). Unterpunkte können durch Einrücken erstellt werden.
+Aufzählungen erstellt man mit Sternchen (*), Pluszeichen (+) oder Minuszeichen (-). Unterpunkte können durch Einrücken erstellt werden.
 
-#### Aufbau (ohne Absätze):
+### Aufbau (ohne Absätze):
 
 \* Punkt 1
 
@@ -49,7 +49,7 @@ Erstellen Sie ungeordnete Aufzählungen mit Sternchen (*), Pluszeichen (+) oder 
   
   \* Unterpunkt 2
 
-Beispiel:
+### Beispiel:
 * Punkt 1
 * Punkt 2
   * Unterpunkt 1
@@ -59,7 +59,7 @@ Beispiel:
 
 Geordnete Aufzählungen werden mit Nummern erstellt.
 
-#### Aubau (ohne Absätze):
+### Aubau (ohne Absätze):
 
 \1. Erste Punkt
 
@@ -72,49 +72,72 @@ Beispiel:
 
 ## Links
 
-Verwenden Sie eckige Klammern [] für den Linktext und runde Klammern () für die URL.
+Man verwendet eckige Klammern [] für den Linktext und runde Klammern () für die URL.
 
 Beispiel:
 
 \[Linktext](URL)
+[HTL Leoben](Htl-leoben.at)
 
 ## Quellcode-Angabe
 
-Sie können Quellcode mit oder ohne Syntax-Highlighting in Markdown einbetten.
+Quellcode kann man mit oder ohne Syntax-Highlighting in Markdown angeben.
 
 ### Mit Syntax-Highlighting
 
-Verwenden Sie dreifache Backticks (\```) gefolgt von der Programmiersprache:
+Verwende dreifache Backticks (\```) gefolgt von der Programmiersprache:
 
-\```python
+\```java
 print("Hallo, Welt!")
 \```
+```java
+print("Hallo, Welt!")
+```
 
 ### Ohne Syntax-Highlighting
 
-Verwenden Sie einfach dreifache Backticks ohne Angabe einer Sprache:
+Verwende Sie einfach dreifache Backticks ohne Angabe einer Sprache:
 
 \```
 Hier steht der Quellcode
 \```
 
+```
+Hier ist der Quellcode
+```
+
 ## Tabellen
 
-Sie können Tabellen in Markdown erstellen, indem Sie Zeilen und Spalten mit Pipezeichen (|) trennen. Sie können die Ausrichtung des Textes in den Zellen festlegen.
+Man erstellt Tabellen in Markdown, indem Sie Zeilen und Spalten mit Pipezeichen (|) trennen. Sie können die Ausrichtung des Textes in den Zellen festlegen.
 
-Beispiel:
+### Aufbau (ohne Absätze)
 
-\[| Spalte 1 | Spalte 2 | Spalte 3 |
-\[|:---------|:--------:|---------:|
-\[| links    | zentriert| rechts   |
+\| Spalte 1   | Spalte 2   | Spalte 3   |
+
+\|------------|------------|------------|
+
+\| Inhalt 1   | Inhalt 2   | Inhalt 3   |
+
+\| Zeile 2, 1 | Zeile 2, 2 | Zeile 2, 3 |
+
+\| Zeile 3, 1 | Zeile 3, 2 | Zeile 3, 3 |
+
+### Beispiel
+
+| Spalte 1   | Spalte 2   | Spalte 3   |
+|------------|------------|------------|
+| Inhalt 1   | Inhalt 2   | Inhalt 3   |
+| Zeile 2, 1 | Zeile 2, 2 | Zeile 2, 3 |
+| Zeile 3, 1 | Zeile 3, 2 | Zeile 3, 3 |
 
 ## Bilder
 
-Fügen Sie Bilder in Markdown ein, indem Sie einen Text in eckigen Klammern für den Alternativtext und die URL in runden Klammern angeben.
+Fügene ein Bild in Markdown ein, indem man einen Text in eckigen Klammern für den Alternativtext und die URL in runden Klammern angeben.
 
 Beispiel:
 
 \![Alternativer Text](URL des Bildes)
+[Max Verstappen](https://search.brave.com/images?q=max%20verstappen)
 
 ## Blockzitate
 
